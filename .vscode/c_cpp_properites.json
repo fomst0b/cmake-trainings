@@ -1,0 +1,22 @@
+// .vscode/c_cpp_properties.json
+
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/src/app",
+                "${workspaceFolder}/src/data_producer_lib/inc",
+                "${workspaceFolder}/src/data_receiver_lib/inc",
+                "${workspaceFolder}/src/postman_lib/inc"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/g++",
+            "cStandard": "c11",
+            "cppStandard": "c++23",
+            "intelliSenseMode": "linux-gcc-x64"
+        }
+    ],
+    "version": 4
+}

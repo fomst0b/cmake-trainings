@@ -1,0 +1,31 @@
+// .vscode/launch.json
+
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch cm_exe",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/output/src/app/cmk_exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "CMake Build",
+            "miDebuggerPath": "/usr/bin/gdb",
+            "logging": {
+                "engineLogging": true
+            }
+        }
+    ]
+}
